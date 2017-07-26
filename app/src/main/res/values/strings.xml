@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoDigitalSimple</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="about_us">About Us</string>
+    <string name="survey">Take Our Survey</string>
+</resources>

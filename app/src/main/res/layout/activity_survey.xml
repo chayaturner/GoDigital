@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cmt.godigital.SurveyActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:background="#000000"
+        android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+        android:layout_alignParentTop="true" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webViewSurvey"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="left|right|bottom|center|top"
+        android:layout_below="@+id/toolbar" />
+</RelativeLayout>
